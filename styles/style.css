@@ -1,0 +1,62 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  color: darkmagenta;
+  margin: 0;
+}
+
+.navbar {
+  background-color: lavenderblush;
+}
+.navbar-logo {
+  width: 30px;
+  height: 30px;
+  padding: 8px;
+}
+.navbar-menu {
+  float: right;
+}
+.navbar a {
+  color: darkmagenta;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  padding: 14px 16px;
+}
+.navbar a:hover {
+  background-color: lavender;
+  color: tomato;
+}
+
+.main {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+.main h1 {
+  color: tomato;
+}
+.profile-picture {
+  float: left;
+  width: 300px;
+  height: 300px;
+  padding: 20px;
+  object-fit: cover;
+  object-position: 20%;
+  border-radius: 100%;
+}
+.info {
+  float: right;
+  margin-top: 30px;
+  padding: 20px;
+}
+.info p {
+  margin-bottom: 50px;
+}
+.main-button-download {
+  float: right;
+  background-color: darkmagenta;
+  color: lavenderblush;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 10px;
+}
